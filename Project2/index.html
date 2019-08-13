@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+	<div>
+		<input type="text" id="resultArea">
+		<br>
+	</div>
+	<div>
+		<br>
+		<input type="text" id="numArea">
+		<br>
+	</div>
+	<div>
+		<br>
+		<input type="text" id="numArea2">
+		<br>
+	</div>
+	<div>
+		<br>
+		<button onclick="operation('CE')">CE</button>
+		<button onclick="operation('C')">C</button>
+		<button onclick="operation('backspace')"><-</button>
+		<button onclick="operation('divide')">/</button>
+		<br>
+		<button onclick="push(7)">7</button>
+		<button onclick="push(8)">8</button>
+		<button onclick="push(9)">9</button>
+		<button onclick="operation('multiply')">&#215</button>
+		<br>
+		<button onclick="push(4)">4</button>
+		<button onclick="push(5)">5</button>
+		<button onclick="push(6)">6</button>
+		<button onclick="operation('minus')">&#8211</button>
+		<br>
+		<button onclick="push(1)">1</button>
+		<button onclick="push(2)">2</button>
+		<button onclick="push(3)">3</button>
+		<button onclick="operation('summ')">+</button>
+		<br>
+		<button onclick="operation('inversion')">&#177</button>
+		<button onclick="push(0)">0</button>
+		<button onclick="operation('point')">.</button>
+		<button onclick="operation('equal')">=</button>
+		<br>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
